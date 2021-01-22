@@ -1,0 +1,417 @@
+.nav-item{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+ letter-spacing: 0.15rem;
+}
+
+.navbar-brand{
+  padding-left: 1rem;
+  letter-spacing: 0.25rem;
+}
+
+.nav-item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.2s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-item:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+nav{
+    background-color: #222831;
+}
+
+
+
+
+
+.first-container{
+ background-color: #222831;
+ color: white;
+ text-align: center;
+padding: 100px;
+font-family: 'Dancing Script', cursive ,sans-serif;
+position: relative;
+padding-bottom: 0;
+
+}
+
+.middle-container{
+  text-align: center;
+  background-color: #393e46;
+  color: white;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.bottom-container{
+  height: 40px;
+  background-color: #393e46;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+
+
+  width: 100%;
+
+}
+
+
+
+.footer-link{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px;
+  letter-spacing: 0.15rem;
+
+}
+
+.footer-link:hover{
+  color: #bedcfa;
+  text-decoration: underline;
+
+}
+
+
+
+.profile{
+  background-color:  #393e46;
+  margin-bottom: 2rem;
+}
+
+.skills{
+  background-color: #222831;
+}
+
+.contact-me{
+  margin-top: 2rem;
+  padding-bottom: 30px;
+}
+
+
+
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+
+}
+
+.maintitle{
+  font-size: 5.64em;
+  margin-bottom: 2rem;
+}
+
+.moon{
+  position: absolute;
+  right: 300px;
+  top: 10rem;
+  width: 11rem;
+}
+
+
+ 
+
+.cloud1{
+  position: absolute;
+  right: 380px;
+  top: 280px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 200px;
+}
+
+.cloud3{
+  position: absolute;
+  left: 300px;
+}
+
+.cloud4{
+  position: absolute;
+  left: 500px;
+  top: 400px;
+}
+
+.birds{
+position: absolute;
+top: 350px;
+width: 100px;
+left: 700px;
+}
+
+
+.mountain{
+  height: 350px;
+  margin-top: 100px;
+  margin-bottom: 0;
+
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.IamOm{
+  background-color: red;
+
+    /* Create the gradient. */
+    background-image: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.om-img{
+  height: 200px;
+  margin-bottom: 3em;
+  margin-top: 100px;
+}
+
+hr{
+  border-style:dotted;
+  border-bottom: none;
+  width: 4%;
+  border-width: 10px;
+  margin: 100px auto;
+  border-color: #222831;
+
+}
+
+.light1{
+  position: absolute;
+  left: 100px;
+  width: 25%;
+}
+.light2{
+  position: absolute;
+  right: 100px;
+  width: 25%;
+}
+
+
+.hello{
+  font-style: italic;
+  margin: 2rem;
+  color: #bedcfa;
+}
+
+.skill-title{
+  font-style: italic;
+  color: #bedcfa;
+  top: 2rem;
+  
+  
+}
+
+.skills{
+  position: relative;
+  padding: 100px
+
+}
+
+.para{
+  width: 30%;
+  margin: auto;
+}
+
+.branU{
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+.branU:hover{
+  color: #bedcfa;
+
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.design-img{
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+}
+
+p{
+  line-height: 2rem;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  padding-top: 1rem;
+
+}
+
+.get-in-touch{
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive ,sans-serif;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.btn {
+  background: #9451b3;
+  background-image: -webkit-linear-gradient(top, #9451b3, #4e6270);
+  background-image: -moz-linear-gradient(top, #9451b3, #4e6270);
+  background-image: -ms-linear-gradient(top, #9451b3, #4e6270);
+  background-image: -o-linear-gradient(top, #9451b3, #4e6270);
+  background-image: linear-gradient(to bottom, #9451b3, #4e6270);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4e6270;
+  background-image: -webkit-linear-gradient(top, #4e6270, #9c4ab3);
+  background-image: -moz-linear-gradient(top, #4e6270, #9c4ab3);
+  background-image: -ms-linear-gradient(top, #4e6270, #9c4ab3);
+  background-image: -o-linear-gradient(top, #4e6270, #9c4ab3);
+  background-image: linear-gradient(to bottom, #4e6270, #9c4ab3);
+  text-decoration: none;
+}
+.para1{
+  margin-bottom: 2rem;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1450px){
+
+  .hidden-contend{
+    display: none;
+  }
+
+  .IamOm{
+    margin-bottom: 0;
+    padding-bottom: 10rem;
+  }
+
+  .maintitle{
+    padding-bottom: 3%;
+
+  }
+
+  .get-in-touch{
+    padding-bottom: 5%;
+  }
+
+  .maintitle{
+    margin-top: 9rem;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 750px){
+
+  
+  .para{
+    width: 75%;
+  }
+
+  .code-img{
+    width: 50%;
+    float: none;
+    margin: 0;
+  }
+
+  .design-img{
+    width: 50%;  
+    float: none; 
+    margin: 0;
+  }
+
+  .skill-row{
+    width: 85%;
+    text-align: center;
+  }
+
+  
+  .om-img1{
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .personal-info{
+    margin: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .first-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  
+  
+}
+
+/*About*/
+
+.about-body{
+  background-color: #222831;
+}
+
+.om-img1{
+  width: 90%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 4rem;
+  margin-right: 4rem;
+
+ 
+}
+
+.personal-info{
+  width: 100%;
+  text-align: left;
+  padding-bottom: 5rem;
+}
+
+.intro-about{
+  margin-bottom: 3rem;
+}
+
+
+
+
+
